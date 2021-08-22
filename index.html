@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Profit and Loss</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <h1>Stock Pr-o-ss</h1>
+  <section class="app">
+    <form class="stock-input">
+      <label class="initial-stock-label">
+        Initial stock price: 
+        <input type="number" class="initial-stock-val">
+      </label>
+      <label class="stock-count">
+        Number of stocks bought:
+        <input type="number" class="stock-count-val">
+      </label>
+      <label class="current-stock-label">
+        Current stock price:
+        <input type="number" class="current-stock-val">
+      </label>
+      <input type="button" class="calculate" value="Calculate">
+    </form>
+    <div class="profit-statement hidden"></div>
+    <div class="loss-statement hidden"></div>
+    <div class="stagnant-statement hidden"></div>
+    <div class="input-all hidden"></div>
+  </section>
+  <script src="./js/index.js"></script>
+</body>
+</html>
