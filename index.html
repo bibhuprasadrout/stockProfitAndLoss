@@ -8,8 +8,10 @@
   <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-  <h1>Stock Pr-o-ss</h1>
   <section class="app">
+    <section class="banner-section">
+      <h1>Stock Pr-o-ss</h1>
+    </section>
     <form class="stock-input">
       <label class="initial-stock-label">
         Initial stock price: 
@@ -23,12 +25,15 @@
         Current stock price:
         <input type="number" class="current-stock-val">
       </label>
-      <input type="button" class="calculate" value="Calculate">
+      <div class="buttons">
+        <input type="button" class="calculate" value="Calculate">
+        <input type="reset" class="reset" value="New Stocks">
+      </div>
     </form>
-    <div class="profit-statement hidden"></div>
-    <div class="loss-statement hidden"></div>
-    <div class="stagnant-statement hidden"></div>
-    <div class="input-all hidden"></div>
+    <div class="message profit-statement hidden"></div>
+    <div class="message loss-statement hidden"></div>
+    <div class="message stagnant-statement hidden"></div>
+    <div class="message input-all hidden"></div>
   </section>
   <script src="./js/index.js"></script>
 </body>
