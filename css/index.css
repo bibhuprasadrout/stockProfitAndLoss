@@ -38,7 +38,7 @@ body {
   width: auto;
   max-width: 370px;
   height: auto;
-  margin: auto;
+  margin: 70px auto;
   border: 1px solid rgba(255, 255, 255, 0.17);
   border-radius: 7px;
   background: rgba(255, 255, 255, 0.11);
